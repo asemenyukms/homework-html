@@ -62,3 +62,15 @@
     color: #8967CD;
     padding: 3px 6px;
 }
+
+.modal-inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.modal-submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
