@@ -1,0 +1,76 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    width: 1017px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    height: 66px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.logo {
+    width: 208px;
+    height: 32px;
+}
+
+.add-data-button {
+    display: flex;
+}
+
+.transactions-table {
+    flex-grow: 1;
+}
+
+.copyright-footer {
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge-green {
+    background-color: #8FBC8F;
+    border-radius: 5px;
+    color: #006400;
+    padding: 3px 6px;
+}
+
+.badge-pink {
+    background-color: #FDE8E8;
+    border-radius: 5px;
+    color: #B45151;
+    padding: 3px 6px;
+}
+
+.badge-purple {
+    background-color: #EEECFE;
+    border-radius: 5px;
+    color: #8967CD;
+    padding: 3px 6px;
+}
+
+.modal-inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.modal-submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
