@@ -42,31 +42,16 @@
     align-items: center;
 }
 
-.badge-green {
-    background-color: #8FBC8F;
-    border-radius: 5px;
-    color: #006400;
-    padding: 3px 6px;
-}
-
-.badge-pink {
-    background-color: #FDE8E8;
-    border-radius: 5px;
-    color: #B45151;
-    padding: 3px 6px;
-}
-
-.badge-purple {
-    background-color: #EEECFE;
-    border-radius: 5px;
-    color: #8967CD;
-    padding: 3px 6px;
-}
-
 .modal-inputs-container {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
 }
 
 .modal-submit-button {
